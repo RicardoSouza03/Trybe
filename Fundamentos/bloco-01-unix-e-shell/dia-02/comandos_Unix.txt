@@ -1,0 +1,29 @@
+ls - lista os itens dentro do diretório
+mkdir - cria um novo diretório
+cd - copia
+mv - move arquivos
+rm - remove arquivos ou diretórios vazios
+rmdir - remove diretórios
+clear - limpa o terminal
+cat - abre, modifica e cria arquivos
+less - abre um arquivo mostrando página por página
+head - pega os 10 primeiros itens de um arquivo
+tail - pega os 10 ultimos itens de um arquivo
+grep - procura por palavras ou frases em um arquivo
+wc - conta o numero de linhas, palavras e caracteres
+> - mais
+>> - mais mais
+| - pipe, serve para adicionar outro output a um comando
+sort - coloca em ordem alfabética um arquivo
+who - mostra quem é que está utilizando
+man - serve para mostrar o manual de um comando
+whatis - serve para mostrar as partes principais do man
+apropos - serve para pesquisar palavras dentro do man
+* - é um coringa que serve para procurar algo que contém após algo, ex: *.txt
+? - outro coringa que serve para colocar em algo que vc não se lembra, ex: *.t?t
+chmod - serve para alterar as permissões de um arquivo ou diretório
+ps - serve para mostrar os processos ativos
+bg - serve para retornar um processo pausado em background
+kill - serve para matar um processo ativo ou pausado
+find - serve para procurar arquivos ou diretórios
+history - serve para mostrar o histórico de comandos utilizados dentro do terminal

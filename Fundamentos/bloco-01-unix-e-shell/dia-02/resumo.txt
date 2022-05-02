@@ -1,0 +1,3 @@
+Neste segundo dia, nos aprofundamos dentro do shell, aprendendo novos comandos, modos de operar dentro do shell.
+Alterando permissões de arquivos e diretórios, verificando processos em aberto além de procurar arquivos especificos e aprender a utilizar operadores
+como '>','<' e '|'.

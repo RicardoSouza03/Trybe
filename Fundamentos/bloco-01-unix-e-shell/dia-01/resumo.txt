@@ -1,0 +1,2 @@
+Neste primeiro dia, nos foi introduzido o Unix, Shell & Bash, nos ensinando como funcion além de apresentar comando básicos como:
+cd,mkdir,rmdir,ls

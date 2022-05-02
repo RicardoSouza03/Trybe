@@ -1,0 +1,2 @@
+Neste primeiro dia, nos foi apresentado o Git e GitHub.
+Mostrando-nos para que serve essas ferramentas de versionamento de versões, e ensinando-nos a como realizar nosso primeiro push
