@@ -1,2 +1,2 @@
-Neste primeiro dia, nos foi apresentado o Git e GitHub.
-Mostrando-nos para que serve essas ferramentas de versionamento de versões, e ensinando-nos a como realizar nosso primeiro push
+Neste primeiro dia, foi apresentado o Git e GitHub. Mostrando para que servem essas ferramentas de versionamento de versões, 
+e a como realizar nosso primeiro push, além de, criar este repositório, que resolvi chamar de "Trybe"
