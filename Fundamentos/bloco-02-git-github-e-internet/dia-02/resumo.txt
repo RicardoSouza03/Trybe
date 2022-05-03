@@ -10,3 +10,4 @@ Como funciona o "git log", que mostra todos os commits feitos
 
 "Git clone", que serve para realizar um clone de um repositório remoto para sua máquina local.
 
+.
