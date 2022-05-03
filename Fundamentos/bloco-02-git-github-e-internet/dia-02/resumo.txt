@@ -1,6 +1,11 @@
-No dia 02 vimos sobre...
+No dia 02 vimos sobre:
+
 Como funciona o "git log", que mostra todos os commits feitos
+
 "git remove" = git rm, que remove um arquivo que já foi commitado. Mostrando tambem como restaurar um arquivo removido, através do caminho: git log --diff-filter=D --summary. Após copiar os primeiros 4 caracteres do arquivo rm, restauramos utilizando o comando: git checkout "commit rm"~1 (sendo 1, dizendo que ele vai voltar a ser um commit válido) "nome do arquivo".
+
 "git ignore", onde criamos um arquivo ".gitignore" que será um arquivo ocue tudo que adicionar-mos dentro do .gitignore, será ignorado pelo meu git. Exemplo: tenho um arquivo "carros.txt" e um diretório "marcas", ao colocar carros.txt e marcas/ dentro do .gitignore utilizando o comando "cat >> .gitignore", o arquivo carros.txt será ignorado, e o diretório marcas e tudo que há dentro dele tmb será ignorado pelo git.
+
 "Git push, pull e fetch", onde o push, serve para enviar as mudanças feitas na máquina local para o servidor, fetch, serve para verificar se existe alguma modificação na brench que está no servidor, e o pull, que serve para verificar se existe alguma modificação na brench e tambem da um merge(junta) da local com a do servidor. Nota: Ao dizer "servidor" digo que é o reposítorio remoto, no caso GitHub.
+
 "Git clone", que serve para realizar um clone de um repositório remoto para sua máquina local.
