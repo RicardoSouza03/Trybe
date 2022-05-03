@@ -9,5 +9,3 @@ Como funciona o "git log", que mostra todos os commits feitos
 "Git push, pull e fetch", onde o push, serve para enviar as mudanças feitas na máquina local para o servidor, fetch, serve para verificar se existe alguma modificação na brench que está no servidor, e o pull, que serve para verificar se existe alguma modificação na brench e tambem da um merge(junta) da local com a do servidor. Nota: Ao dizer "servidor" digo que é o reposítorio remoto, no caso GitHub.
 
 "Git clone", que serve para realizar um clone de um repositório remoto para sua máquina local.
-
-.
