@@ -22,7 +22,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 1.3 - Unix & Bash - Parte 1
 - [X] 1.4 - Unix & Bash - Parte 2
 
-##### Bloco 2: [Git, GitHub e Internet]()
+##### Bloco 2: [Git, GitHub e Internet](https://github.com/RicardoSouza03/Trybe/tree/main/Fundamentos/bloco-02-git-github-e-internet)
 - [X] 2.1 - Git & GitHub  - O que é e para que serve
 - [ ] 2.2 - Git & GitHub - Entendendo os comandos
 - [ ] 2.3 - Internet - Entendendo como ela funciona
