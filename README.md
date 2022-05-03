@@ -16,7 +16,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1: [Unix, Bash e Shell Script]()
+##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/RicardoSouza03/Trybe/tree/main/Fundamentos/bloco-01-unix-e-shell)
 - [X] 1.3 - Fundamentos do Desenvolvimento Web
 - [X] 1.3 - Introdução - Unix & Shell
 - [X] 1.3 - Unix & Bash - Parte 1
