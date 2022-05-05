@@ -1,0 +1,40 @@
+Dia 03
+Inicio da parte sobre internet
+De começo apresentou-se a história da internet e como aconteçe o funcionamento
+dela, através de redes cabeadas e satélites, conectando usuários em questões 
+de segundos, com o envio de dados para servidores e clientes.
+
+Explicando termos técnicos:
+Cliente = navegador, quando falamos de cliente, é o mesmo que estar fae o Chrome ou o Firefox. O cliente é uma aplicação conectadaà internet, e su
+função é conectar o usuário com outro computador.
+
+Servidor = Super computador, igual a um computador, porém, com uma função diferente, o servidor serve para armazenar, processar e entrar páginas web para os Clientes
+
+Endereço IP = CPF. IP é uma sigle que significa Internet Protocol, e serve como um
+identificador único para cada dispositivo conectado a uma rede TCP/IP.
+
+TCP/IP = protocolo de envio, TCP é o mesmo que Protocolo de Controle de Transmissão, e é responsavel por diferenciar aplicações e dados divididos em pacotes, que se
+comunicam através da rede. Já a parte "IP" define como os dados vão chegar corretamente ao destinatário. E a junção dos dois formam uma pilha de protocolos dividos em: aplicação, transporte, rede e interface.
+
+ISP = provedor de internet, são as empresas que fornecem acesso a internet.
+
+DNS = base de dados, essa base de dados gerencia nomes de serviços, computadores 
+ou qualquer outro dispositivo conectado à internet, e é usado para relacionar o 
+endereço nominal com o endereço IP, localizando e traduzindo as buscas feitas pelo
+navegador
+
+Port Number = numero de casa, é um numero de porta com 16 bits, utilizado para 
+identificar uma porta específica em um servidor, e está associado ao endereço IP.
+
+Host = computador, o host é qualquer dispositivo conectado a rede, onde cada um 
+tem um endereço IP único. Vale lembrar que, nem sempre quem hospeda uma página é 
+um host, já que isso pode ser feito por um servidor, porém, um servidor é um 
+dispositivo com IP, mas, não se pode confundir, já que o host pode ser também, uma
+organização inteira que forneçe serviços de hospedagem para manter inúmeros servidores web.
+
+HTTP = protocolo, HTTP é uma sigla para "Hyper-text Transfer Protocol", e serve 
+para a comunicação de navegadores e servidores na internet.
+
+URL = identificador, URL uma sigla para "Uniform Resource Locators", e identifica 
+um recurso web específico, por exemplo, podemos mudar a nossa busca para https://www.google.com/travel/flights para pesquisar por preços de passagens aéreas. O URL identifica o protocolo que será utilizado para comunicarmos com o servidor (https), o nome do host (google.com) e o recurso que queremos acessar (travel/flights).
+

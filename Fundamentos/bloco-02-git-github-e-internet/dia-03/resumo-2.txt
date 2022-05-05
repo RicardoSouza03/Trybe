@@ -1,0 +1,37 @@
+Segunda parte sobre internet
+
+Nesta segunda parte é dito sobre cliente-servidor.
+
+Aprendemos que no modo "cliente-servidor", que a comunicação aconteçe atraves de requisições e 
+respostas, onde, o cliente envia uma requisição para o servidor, que irá retornar uma resposta.
+Por conta de existir um grande volume de dados envolvidos, é utilizado o protocolo HTTP para 
+que haja um gerenciamento fácil dos dados.
+
+Uma requisição HTTP é uma resposta não encripitada, ou seja, ela é vulnerável a vários tipos de 
+ataques. Porém, existe o HTTPS, que é uma forma segura de comunicação, que utiliza uma encriptação
+com o mecanismo de segurança "SSL"
+
+O HTTP é dividido em duas partes:
+
+HTTP Headers: que contém os metadata, que possuem requisições (GET, POST, PUT, DELETE e REST),
+dentre outros, entretanto, os mais importantes são o content-type, server, status, host e cookie.
+
+HTTP Body: esta é a parte que possui os elementos HTML da página, que é exibido após o response.
+
+Existem métodos HTTP, e estes são:
+
+GET: é o mais comum e utilizado, pois essa requisição apenas faz a leitura dos dados, e não pode
+modificar os dados, assim, esse tipo de requisição é considerada segura, pois sera sempre retornada a mesma requisição.
+
+POST: este método é utilizado para criar novos recursos, como um formulário para login. O método
+POST não é seguro nem idempotente, e suas requisições sempre retornaram um resultado novo, mesmo
+que sendo idêntico, e o seus status é sempre de 201.
+
+PUT: este método é utilizado para atualizar o recurso identificado pelo URL, podendo tambem ser
+utilizado para criar novos recursos. Esta requisição não é considerada segura pois a sua aplicação modifica o servidor.
+No entanto ele é um método idempotente, pois múltiplas requisições tem sempre o mesmo efeito que
+uma única.
+
+DELETE: este método é utilizado para deletar um recurso identificado pelo URL. Ela é idempotentes
+pois sempre que você fizer uma, ela sempre retornará um recurso deletado.
+
