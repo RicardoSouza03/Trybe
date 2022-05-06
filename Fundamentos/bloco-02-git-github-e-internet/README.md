@@ -16,3 +16,6 @@ No git veremos comandos como:
 *Já o GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git*
 
 No GitHub veremos como personalizar nosso perfil, criar novos repositórios e modifica-los
+
+##
+:heavy_check_mark: Bloco finalizado. :rocket:
