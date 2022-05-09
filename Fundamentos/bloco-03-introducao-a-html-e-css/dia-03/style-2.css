@@ -1,0 +1,42 @@
+h1 {
+  color: aliceblue;
+  background-color: black;
+  text-align: center;
+  border: 4px solid crimson;
+  text-decoration: underline;
+}
+
+.super-mario {
+  width: 200px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.goomba {
+  position: absolute;
+  width: 100px;
+  top: 380px;
+  left: 150px;
+}
+
+.baloon {
+  position: absolute;
+  left: 300px;
+}
+
+.speach {
+  position:absolute;
+  font-size: 25px;
+  top: 130px;
+  left: 320px;
+  z-index: 2;
+}
+
+.bowser {
+  width: 200px;
+  top: 200px;
+  left: 600px;
+  position: absolute;
+  z-index: 1;
+}

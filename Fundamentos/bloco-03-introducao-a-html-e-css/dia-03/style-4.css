@@ -1,0 +1,62 @@
+div:hover {
+  border: 4px solid black;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 550;
+  text-decoration: underline;
+}
+
+#Vermelha {
+  background-color: red;
+  font-style: italic;
+}
+
+#Roxa {
+  background-color: purple;
+}
+
+#Verde {
+  background-color: green;
+  margin: 15px 0;
+  padding: 1px;
+  font-style: italic;
+}
+
+#Verde:hover {
+  padding: 40px;
+}
+
+#Laranja {
+  background-color: orange;
+}
+
+#Azul {
+  background-color: blue;
+  font-style: italic;
+}
+
+.Branca {
+  color: white;
+}
+
+.Ciano {
+  color: cyan;
+}
+
+.Amarela {
+  color: yellow;
+}
+
+.Marrom {
+  color: brown;
+}
+
+.Rosa {
+  color: pink;
+}
