@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.main {
+  border: 3px solid black;
+  background-color: rgba(102, 102, 102, 0.5);
+  max-width: 700px;
+  margin: auto;
+}
+
+.ranking {
+  /* border: 3px solid red; */
+  width: 700px;
+  margin: auto;
+}
+
+.ranking ul, .ranking-description ul {
+  list-style: none;
+}
+
+.first {
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+  display: block;
+  margin-left: 30.5%;
+}
+
+.second, .third {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.second {
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+.third {
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+.ranking-description {
+  border-top: 3px solid black;
+  text-align: center;
+  width: 700px;
+  margin: auto;
+}
+
+.description li {
+  display: inline;
+}
