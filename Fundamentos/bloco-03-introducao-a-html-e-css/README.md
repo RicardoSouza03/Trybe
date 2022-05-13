@@ -14,3 +14,5 @@ E o contéudo será dividido em quatro partes:
 #
 
 ### Para fechar com chave de ouro, será desenvolvida uma página, aplicando todo o conhecimento adquirido, de acordo com a especificação do projeto final.
+
+:heavy_check_mark: Bloco finalizado. :rocket: 
