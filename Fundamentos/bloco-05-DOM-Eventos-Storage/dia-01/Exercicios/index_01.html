@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      document.querySelectorAll('p')[1].innerText = 'Trabalhando como programador'
+      document.querySelector('.main-content').style.backgroundColor = 'rgb(76,164,109)'
+      document.querySelector('.main-content .center-content').style.backgroundColor = 'white'
+      document.querySelector('.title').innerText = 'Exercício 5.1 - JavaScript'
+      let upperCase = document.querySelectorAll('p')
+
+      for(let i = 0; i < upperCase.length; i += 1){
+        upperCase[i].style.textTransform = 'uppercase'
+        console.log(upperCase[i].innerText)
+      }
+    </script>
+  </body>
+</html>
