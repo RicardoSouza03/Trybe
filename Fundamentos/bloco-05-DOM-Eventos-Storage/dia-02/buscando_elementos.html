@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    console.log(document.querySelector('#elementoOndeVoceEsta'))
+    document.querySelector('#elementoOndeVoceEsta').parentNode.style.color = 'red'
+    document.querySelector('#primeiroFilhoDoFilho').innerText = 'Olá, tudo bem?'
+    document.querySelector('#pai').firstChild
+    console.log(document.querySelector('#elementoOndeVoceEsta').previousElementSibling)
+    console.log(document.querySelector('#elementoOndeVoceEsta').nextSibling)
+    console.log(document.querySelector('#elementoOndeVoceEsta').nextElementSibling);
+    console.log(document.querySelector('#pai').lastElementChild.previousElementSibling)
+
+    console.log('-------------------------');
+
+    let pai = document.querySelector('#pai')
+    let paiChild = document.createElement('section')
+    paiChild.innerText = 'hola estas bien?'
+    pai.appendChild(paiChild)
+    console.log(document.querySelector('#pai').lastChild)
+
+    console.log('-------------------------');
+
+    let elementoOndeVoceEsta = document.querySelector('#elementoOndeVoceEsta')
+    let filhoDeOndeVoceEsta = document.createElement('span')
+    filhoDeOndeVoceEsta.innerText = 'isto é o filho do elementoOndeVoceEsta'
+    elementoOndeVoceEsta.appendChild(filhoDeOndeVoceEsta)
+    console.log(document.querySelector('#elementoOndeVoceEsta').lastChild);
+
+    console.log('-------------------------');
+
+    let primeiroFilhoDoFilho = document.querySelector('#primeiroFilhoDoFilho')
+    let filhoDoPrimeiroFilhoDoFilho = document.createElement('div')
+    filhoDoPrimeiroFilhoDoFilho.innerText = 'este é o filho do primeiroFilhoDoFilho'
+    primeiroFilhoDoFilho.appendChild(filhoDoPrimeiroFilhoDoFilho)
+    console.log(document.querySelector('#primeiroFilhoDoFilho').lastChild);
+
+    console.log('-------------------------');
+
+    console.log(document.querySelector('#primeiroFilhoDoFilho').lastChild.parentNode.parentNode.nextElementSibling)
+    
+    console.log('-------------------------');
+
+    let paizao = document.querySelector('#paiDoPai').firstElementChild
+    let filhoDoFilho = document.querySelector('#elementoOndeVoceEsta')
+
+    let filho = document.querySelector('#primeiroFilho')
+    let filho1 = document.querySelector('#terceiroFilho')
+    let filho2 = document.querySelector('#quartoEUltimoFilho')
+    let filho3 = document.querySelector('#segundoEUltimoFilhoDoFilho')
+    
+    let remove = paizao.removeChild(filho)
+    let remove1 = paizao.removeChild(filho1)
+    let remove2 = paizao.removeChild(filho2)
+    let remove3 = filhoDoFilho.removeChild(filho3)
+    console.log(document.querySelector('#paiDoPai'))
+  </script>
+</body>
+</html>
