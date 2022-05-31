@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TrybeTrip</title>
+</head>
+<body>
+  <header>
+    <h1>TrybeTrip</h1>
+  </header>
+  <main>
+    <form action="GET">
+    <label for="fullName">Insira seu nome completo:
+      <input type="text" name="nome" id="fullName" minlength="10" maxlength="40" required>
+    </label>
+    <br>
+    <label for="e-mail">Insira seu e-mail:
+      <input type="email" name="e-mail" id="e-mail" minlength="10" maxlength="50" required>
+    </label>
+    <br>
+    <label for="local">Escolha um destino:
+      <select name="destination" id="local" required>
+        <option value="city">Cidade</option>
+        <option value="camp">Campo</option>
+        <option value="beach">Praia</option>
+        <option value="mountains" selected>Montanhas</option>
+      </select>
+    </label>
+    <br>
+    <label for="textArea">Por que deveriamos escolher você?<br>
+      <textarea type="text" name="meaning" id="textArea" maxlength="500"></textarea>
+    </label>
+    <br>
+    <label for="date">Qual a melhor data para sua viagem?
+      <input type="date" name="date" id="date">
+    </label>
+    <br>
+    <label for="news">Gostaria de receber outras oportunidades?
+      <input type="checkbox" name="news" id="news">
+    </label>
+    <br>
+    <label for="condition">Concordo que minhas imagens poderão ser utilizadas na divulgação de concursos futuros
+      <input type="checkbox" name="condition" id="condition" required>
+    </label>
+    <br>
+    <button type="reset" id="button">Enviar</button>
+    <button type="reset" id="reset">resetar</button>
+  </form>
+    <script src="/Exercicios/script.js"></script>
+  </main>
+</body>
+</html>
