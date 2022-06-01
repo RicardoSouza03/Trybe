@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script2.js"></script>
+  <link rel="stylesheet" href="/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+  <title>TrybeTrip</title>
+</head>
+<body>
+  <header>
+    <h1 class="text-center">TrybeTrip</h1>
+  </header>
+  <main class="container">
+    <form action="GET">
+      <div class="form-group row">
+        <label for="fullName">Insira seu nome completo:
+          <input class='form-control' type="text" name="nome" id="fullName" minlength="10" maxlength="40" required>
+        </label>
+      </div>
+      <div class="form-group row">
+        <label for="e-mail">Insira seu e-mail:
+          <input class='form-control' type="email" name="e-mail" id="e-mail" minlength="10" maxlength="50" required>
+        </label>
+      </div>
+      <div class="form-group row">
+        <label for="local">Escolha um destino:
+          <select class='form-control custom-select custom-select-lg mb-3' name="destination" id="exampleFormControlSelect1" required>
+            <option selected>Open</option>
+            <option value="city">Cidade</option>
+            <option value="camp">Campo</option>
+            <option value="beach">Praia</option>
+            <option value="mountains">Montanhas</option>
+          </select>
+        </label>
+      </div>
+      
+      <div class="form-group row">
+        <label for="textArea">Por que deveriamos escolher você?
+          <textarea class="form-control" type="text" name="meaning" id="textArea" rows="3" maxlength="500"></textarea>
+        </label>
+      </div>
+      
+      <div class="form-group row">
+        <label for="date">Qual a melhor data para sua viagem?
+          <input class='form-control' type="date" name="date" id="date">
+        </label>
+      </div>
+      
+      <div class="form-check">
+        <input class='form-check-input' type="checkbox" name="news" id="news">
+        <label for="news" class="form-check-label">Gostaria de receber outras oportunidades?</label>
+      </div>
+      
+      <div class="form-group">
+        <input class='form-check-input' type="checkbox" name="condition" id="condition" required>
+        <label for="condition" class="form-check-label">Concordo que minhas imagens poderão ser utilizadas na divulgação de concursos futuros</label>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-primary btn-md " type="reset" id="button">Enviar</button>
+        <button class="btn btn-secondary btn-md active" type="reset" id="reset">resetar</button>
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
