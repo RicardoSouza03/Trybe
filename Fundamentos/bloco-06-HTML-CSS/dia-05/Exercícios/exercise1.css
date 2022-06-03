@@ -1,0 +1,133 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: x-large;
+  margin: 10px;
+}
+
+article {
+  max-width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1 , h2 {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+  border-radius: 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(30, 30, 30);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+figure {
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+figcaption {
+  margin-top: 5px;
+  font-size: 2em;
+  color: white;
+
+}
+
+@media screen and (min-width: 800px) {
+  body{
+  background-color: rgb(172, 170, 170);
+  font-size: x-large;
+  }
+
+  header h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  article {
+    margin: auto;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  main h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 80%;
+    margin: auto;
+  }
+
+  img {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  figcaption {
+    align-self: flex-end;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  body {
+    background-color: aliceblue;
+    font-size: xx-large;
+  }
+
+  article {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  section {
+    background-color: rgb(95, 95, 95);
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    max-width: 80%;
+    margin: auto;
+  }
+
+  img {
+    border: 3px solid black;
+    border-radius: 6px;
+  }
+
+  figcaption {
+    color: white;
+    text-decoration: underline;
+  }
+}
