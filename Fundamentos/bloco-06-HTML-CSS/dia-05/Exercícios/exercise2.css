@@ -1,7 +1,333 @@
 html {
   box-sizing: border-box;
+  font-size: 18px;
+  background-color: rgb(97, 97, 97);
+  padding: 5px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  list-style-position: inside;
+  text-align: left;
+  padding: 0;
+  line-height: 20px;
+  gap: 5px;
+}
+
+header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 5px;
+}
+
+header p {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul li {
+  border: 1px solid rgb(75, 75, 75);
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgb(224, 224, 224);
+  text-decoration: underline;
+}
+
+.aside-one {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(150, 150, 150);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.aside-one h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  color: white;
+}
+
+.aside-one ul li {
+  padding: 3px;
+  font-size: 18px;
+}
+
+.aside-two {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.aside-two h2 {
+  text-decoration: underline;
+  margin: 10px;
+}
+
+.aside-two ul {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 80%;
+  flex-flow: column wrap;
+  justify-self: center;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(150, 150, 2, 0.568);
+}
+
+.aside-two ul li {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 245, 200);
+  border-radius: 5px;
+}
+
+.main-content h1 {
+  justify-self: center;
+  padding: 5px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.main-content p {
+  padding: 5px 10px;
+  font-size: 25px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(150, 150, 150);
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+footer h3 {
+  font-size: 25px;
+  color: white;
+  text-decoration: underline;
+}
+
+footer p {
+  text-align: center;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px ) and (max-width: 1023px) {
+  body {
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header {
+    margin: auto;
+  }
+
+  header p {
+    font-size: 40px;
+  }
+
+  header ul li{
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .aside-one {
+    width: 45%;
+    border: 1px solid black;
+    margin: 0 10px 0 0;
+  }
+
+  .aside-one h2 {
+    margin-bottom: 5px;
+  }
+
+  .aside-one ul {
+    padding: 0;
+  }
+
+  .aside-two {
+    width: 45%;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: rgb(150, 150, 150);
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .aside-two h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .aside-two ul {
+    width: 100%;
+    list-style: none;
+    list-style-position: inside;
+    text-align: left;
+    padding: 4.5rem 10px;
+    line-height: 20px;
+    gap: 5px;
+    background-color: rgb(150, 150, 150);
+    border: none;
+    color: black;
+  }
+
+  .aside-two ul li {
+    padding: 3px;
+    font-size: 18px;
+  }
+
+  .main-content{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header {
+    width: 100%;
+    background-color: black;
+    margin-bottom: 20px;
+  }
+
+  header p {
+    font-size: 50px;
+  }
+
+  header ul {
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+  }
+
+  header ul li {
+    padding: 15px 30px;
+    background-color: white;
+  }
+
+  .aside-one {
+    width: 45%;
+    border: 1px solid black;
+    margin: 0 10px 0 0;
+  }
+
+  .aside-one h2 {
+    margin-bottom: 5px;
+  }
+
+  .aside-one ul {
+    padding: 0;
+  }
+
+  .aside-two {
+    width: 45%;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: rgb(150, 150, 150);
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .aside-two h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .aside-two ul {
+    width: 100%;
+    list-style: none;
+    list-style-position: inside;
+    text-align: center;
+    padding: 4.5rem 10px;
+    line-height: 20px;
+    gap: 5px;
+    background-color: rgb(150, 150, 150);
+    border: none;
+    color: black;
+  }
+
+  .aside-two ul li {
+    padding: 3px;
+    font-size: 18px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 40px;
+    margin-top: 20px;
+    width: 95%;
+  }
+
+  .main-content h1 {
+    width: 100%;
+  }
+
+  .main-content p {
+    margin: 0;
+    text-align: left;
+    line-height: 35px;
+    letter-spacing: 1px;
+  }
+
+  footer {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+  }
 }
