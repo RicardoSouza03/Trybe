@@ -41,4 +41,32 @@ const matchAnswers = (gab, answer) => {
 const checkAnswers = (gab, answer, func) => func(gab, answer)
 
 checkAnswers(RIGHT_ANSWERS, STUDENT_ANSWERS, matchAnswers)
- 
+
+console.log('------------------------------------------------------------');
+
+mageDamage = (int) => Math.floor(Math.random() * ((int * 2) - int + 1)) + int
+const mage = {
+  healthPoints: 130,
+  intelligence: 45,
+  mana: 125 - 15,
+  damage: mageDamage(45),
+};
+warriorDamage = (str) => Math.floor(Math.random() * ((str * 2) - str + 1)) + str
+const warrior = {
+  healthPoints: 200,
+  strength: 30,
+  weaponDmg: 2,
+  damage: warriorDamage(30),
+};
+
+const dragonDamage = (strength) => Math.floor(Math.random() * (strength - 15 + 1)) + 15
+const dragon = {
+  healthPoints: 350,
+  strength: 50,
+  damage: dragonDamage(50),
+};
+
+const battleMembers = { mage, warrior, dragon };
+
+console.log(battleMembers);
+
