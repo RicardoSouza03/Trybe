@@ -14,4 +14,4 @@ function smallerName() {
   return nameBook;
 }
 
-console.log(smallerName())
+console.log(smallerName());
