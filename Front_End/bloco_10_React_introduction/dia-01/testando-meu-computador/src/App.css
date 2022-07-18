@@ -1,0 +1,21 @@
+/* App.css */
+.App {
+  display: flex;
+  flex-flow: column wrap;
+  justify-items: center;
+  align-content: center;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: gainsboro;
+  max-width: 500px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.card p {
+  padding: 5px;
+}
