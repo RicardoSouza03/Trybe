@@ -65,33 +65,33 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 6.6 - Projeto - Trybewarts
 
 ##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários]()
-- [ ] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] 7.2 - JavaScript ES6 - Fluxo de exceção e objetos
-- [ ] 7.3 - Primeiros passos em Jest
-- [ ] 7.4 - Projeto - JavaScript Testes Unitários
+- [X] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
+- [X] 7.2 - JavaScript ES6 - Fluxo de exceção e objetos
+- [X] 7.3 - Primeiros passos em Jest
+- [X] 7.4 - Projeto - JavaScript Testes Unitários
 
 ##### Bloco 8: [Higher Order Functions do JavaScript ES6]()
-- [ ] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
-- [ ] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] 8.6 - Projeto - Zoo functions
+- [X] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
+- [X] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [X] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
+- [X] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
+- [X] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [X] 8.6 - Projeto - Zoo functions
 
 ##### Bloco 9: [JavaScript e Testes Assíncronos]()
-- [ ] 9.1 - JavaScript Assíncrono e Callbacks
-- [ ] 9.2 - JavaScript Assíncrono - Fetch API e async/await
-- [ ] 9.3 - Jest - Testes Assíncronos
-- [ ] 9.4 - Projeto - Carrinho de Compras
+- [X] 9.1 - JavaScript Assíncrono e Callbacks
+- [X] 9.2 - JavaScript Assíncrono - Fetch API e async/await
+- [X] 9.3 - Jest - Testes Assíncronos
+- [X] 9.4 - Projeto - Carrinho de Compras
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 10: [Introdução à React]()
-- [ ] 10.1 - Introdução - Front-end
-- [ ] 10.1 - Introdução - React
-- [ ] 10.1 - 'Hello, world!' no React!
-- [ ] 10.2 - Componentes React
-- [ ] 10.3 - Projeto - Sistema Solar
+- [X] 10.1 - Introdução - Front-end
+- [X] 10.1 - Introdução - React
+- [X] 10.1 - 'Hello, world!' no React!
+- [X] 10.2 - Componentes React
+- [X] 10.3 - Projeto - Sistema Solar
 
 ##### Bloco 11: [Componentes com Estado, Eventos e Formulários com React]()
 - [ ] 11.1 - Componentes com estado e eventos
